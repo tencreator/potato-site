@@ -1,0 +1,134 @@
+.bgimage {
+    font-family: "Brush Script MT", cursive;
+    /* The image used */
+    background-image: url("potato.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainbd {
+    font-family: "Brush Script MT", cursive;
+top: 2%;
+right: 51%;
+color: white;
+position: absolute;
+}
+
+.text1 {
+    font-family: "Brush Script MT", cursive;
+color: white;
+top: 5%;
+left: 40%;
+position: absolute;
+}
+
+.players {
+    font-family: "Brush Script MT", cursive;
+    color: rgb(233, 212, 95);
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    font-size: larger;
+}
+
+.Tencreator {
+    font-family: "Brush Script MT", cursive;
+    background-color: rgba(255, 0, 191, 0.5);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 15%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: 2px solid black;
+    transition-duration: 0.4s;
+    border: 1px solid black;
+}
+
+.Tencreator:hover {
+    background-color: white; /* Green */
+    color: black;
+    border: 1px solid black;
+}
+
+.padiiie {
+    font-family: "Brush Script MT", cursive;
+    background-color: rgba(0, 0, 255, 0.5);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 15%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: 2px solid black;
+    transition-duration: 0.4s;
+    border: 1px solid black;
+}
+
+.padiiie:hover {
+    background-color: white; /* Green */
+    color: black;
+    border: 1px solid black;
+}
+
+.ewanpotato {
+    font-family: "Brush Script MT", cursive;
+    background-color: rgba(255, 255, 0, 0.5);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 15%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: 2px solid black;
+    transition-duration: 0.4s;
+    border: 1px solid black;
+}
+
+.ewanpotato:hover {
+    background-color: white; /* Green */
+    color: black;
+    border: 1px solid black;
+}
+
+
+
+
+
+/* active */
+
+.Tencreator:active {
+    background-color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    color: white;
+}
+
+.padiiie:active {
+    background-color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    color: white;
+}
+
+.ewanpotato:active {
+    background-color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    color: white;
+}
